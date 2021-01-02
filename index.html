@@ -7,34 +7,47 @@
     <meta charset="utf-8">
   </head>
   <body>
-    <header>
-      <ul id="topNavBar">
-        <li>About</li>
-        <li>Store</li>
-        <li>Gmail</li>
-        <li>Images</li>
-        <li><i class="material-icons">&#xe5c3;</i></li>
-        <li>Sign in</li>
-      </ul>
-    </header>
-    <main >
-      <img  src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-      <input type="text">
-      <button>Google search</button>
-      <button>I'm Feeling Lucky</button>
+    <div class="container">
+    <header id="topNavBar">
+      <div>
+      <div id="topLeft">
+        <li><a>About</a></li>
+        <li><a>Store</a></li>
+      </div>
+      <div id="topMid"></div>
+      <div id="topRight">
+          <li><a>Gmail</a></li>
+          <li><a>Images</a></li>
+          <li><a><i class="material-icons">&#xe5c3;</i></a></li>
+          <li id="signIn"><a>Sign in</a></li>
+      </div>
+    </div>
+  </header>
+    <main id="main">
+      <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" class="center">
+      <form action="">
+        <input type="text" class="center" id="searchbar">
+        <div class="buttons">
+          <button class="button" type="button">Google Search</button>
+          <button class="button" type="button">I'm Feeling Lucky</button>
+        </div>
+      </form>
     </main>
-    <footer>
-      <p>United Kingdom</p>
-      <hr>
-      <ul>
-        <li>Advertising</li>
-        <li>Business</li>
-        <li>How Search Works</li>
-        <li><img src="images/carbon-leaf.png">Carbon neutral since 2007</li>
-        <li>Privacy</li>
-        <li>Terms</li>
-        <li>Settings</li>
-      </ul>
+    <footer id="bottomNavBar">
+        <div id="bottomLeft">
+          <li><a>Advertising</a></li>
+          <li><a>Business</a></li>
+          <li><a>How Search Works</a></li>
+      </div>
+      <div id="bottomMid">
+        <li><a><img src="images/carbon-leaf.png">Carbon neutral since 2007</a></li>
+      </div>
+      <div id="bottomRight">
+        <li><a>Privacy</a></li>
+        <li><a>Terms</a></li>
+        <li><a>Settings</a></li>
+      </div>
     </footer>
+  </div>
   </body>
 </html>

@@ -1,0 +1,116 @@
+body {
+    background-color: #ffffff;
+    font-family: serif;
+}
+
+li {
+    list-style-type: none;
+    float: left; 
+}
+
+a {
+    display: block;
+    padding: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#topNavBar {
+    display: grid;
+    top: 0;
+    width: 100%;
+    line-height: 20px;
+}
+
+#bottomNavBar {
+    position: fixed;
+    display: grid;
+    bottom: 0;
+    width: 100%;
+    grid-template-columns: 2fr 2fr 0.75fr;
+}
+
+.container {
+    width: 100%;
+    display: grid;
+}
+
+#topleft {
+    float: left;
+    width: 1fr;
+}
+
+#topMid {
+    float: auto;
+    width: 3fr;
+}
+
+#topRight {
+    float: right;
+    width: 1fr;
+}
+
+#bottomleft {
+    float: left;
+}
+
+#bottomMid {
+    float: auto;
+}
+
+#bottomRight {
+    float: right;
+}
+
+#main {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+}
+
+#signIn {
+    color: white;
+    background: -moz-linear-gradient(top,#4387fd,#4683ea);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.buttons {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    border-radius: 25%;
+}
+
+button {
+    margin: 10px;
+    line-height: 25px;
+}
+
+#searchbar{
+    height:45px;
+    border:none;
+    width:500px;
+    font-size:16px;
+    outline: none;
+    ;
+  }
+
+#searchbar:hover{
+    box-shadow: 2px 2px 8px 1px #dcdcdc;
+  }
