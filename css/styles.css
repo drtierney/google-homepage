@@ -30,6 +30,7 @@ a:hover {
     bottom: 0;
     width: 100%;
     grid-template-columns: 2fr 2fr 0.75fr;
+    background-color: #f2f2f2;
 }
 
 .container {
@@ -93,7 +94,6 @@ a:hover {
     margin-top: 25px;
     justify-content: center;
     align-items: center;
-    background-color: #f8f9fa;
     border-radius: 25%;
 }
 
@@ -104,11 +104,10 @@ button {
 
 #searchbar{
     height:45px;
+    width:45%;
     border:none;
-    width:500px;
     font-size:16px;
     outline: none;
-    ;
   }
 
 #searchbar:hover{
